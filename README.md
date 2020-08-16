@@ -9,7 +9,7 @@ The project was successful and the results improved by 11.8%. It went from 0.856
 ## Results :-
 
 ### Before Correction
-![Image Before Correction](Image_Before_correction.png)
+![Image Before Correction](Image_Before_correction.PNG)
 
 ### After Correction
 ![Image After Correction ](Image_After_Correction.png)
