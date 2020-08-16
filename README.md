@@ -4,7 +4,7 @@ This is an attempt to reduce the quantum noice we get when we run a circuit in a
 
 **Note** : If you run this program on a Quantum Simulator you will get the probabity to the state *11* to be 100% cause the Simulator imitates an ideal Quantum Computer.
 
-The project was successful and the results improved by 11.8%. It went from 0.856% probability of getting a *11* state to 0.974% probability to getting a *11* state.
+The project was successful and the results improved by 11.8%. It went from 0.856% probability of getting a *11* state to 0.974% probability to getting a *11* state.***The circuit was run 3000 times on the service backend : ibmq_london(5 qubits)***
 
 ## Results :-
 
@@ -23,7 +23,7 @@ The project was successful and the results improved by 11.8%. It went from 0.856
 - Qiskit IBMQ-provider
 - Matplotlib
 
--***The circuit was run 3000 times on the service backend : ibmq_london(5 qubits)*** 
+ 
 
 
 
