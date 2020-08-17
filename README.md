@@ -2,6 +2,9 @@
 
 ![APM](https://img.shields.io/apm/l/vim-mode)
 
+<a href="https://www.python.org" rel="nofollow"><img src="https://camo.githubusercontent.com/bee9cae60ad03d7765f5bf82317c80a93ccd7d0b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e332d76332e362d677265656e3f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e" alt="python3" data-canonical-src="https://img.shields.io/badge/python3-v3.6-green?style=for-the-badge&amp;logo=python" style="max-width:100%;"></a>
+
+
 This is an attempt to reduce the quantum noice we get when we run a circuit in a quantum computer. I used the Qiskit framework along with Jupyter Notebook to code a simple quantum circuit. The circuit should output 1 when the values of both the qubits is equal to 1 so the probability of getting the state *11* should be 100% if the Quantum Computer is an ideal Quantum Computer. But since that is not the case we do get the probabilities of some other states mixed with our expected answer (states like *10 01 00*). So I have tried to mitigate this quantum noise by using Qiskit Ignis.
 
 **Note** : If you run this program on a Quantum Simulator you will get the probabity to the state *11* to be 100% cause the Simulator imitates an ideal Quantum Computer.
