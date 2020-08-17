@@ -1,5 +1,7 @@
 # Quantum-Error-Mitigation
 
+![APM](https://img.shields.io/apm/l/vim-mode)
+
 This is an attempt to reduce the quantum noice we get when we run a circuit in a quantum computer. I used the Qiskit framework along with Jupyter Notebook to code a simple quantum circuit. The circuit should output 1 when the values of both the qubits is equal to 1 so the probability of getting the state *11* should be 100% if the Quantum Computer is an ideal Quantum Computer. But since that is not the case we do get the probabilities of some other states mixed with our expected answer (states like *10 01 00*). So I have tried to mitigate this quantum noise by using Qiskit Ignis.
 
 **Note** : If you run this program on a Quantum Simulator you will get the probabity to the state *11* to be 100% cause the Simulator imitates an ideal Quantum Computer.
