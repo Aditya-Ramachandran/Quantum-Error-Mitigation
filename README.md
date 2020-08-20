@@ -15,13 +15,6 @@ This is an attempt to reduce the quantum noice we get when we run a circuit in a
 
 The project was successful and the results improved by 11.8%. It went from 0.856% probability of getting a *11* state to 0.974% probability to getting a *11* state.***The circuit was run 3000 times on the service backend : ibmq_london(5 qubits)***
 
-## Results :-
-
-### Before Correction
-![Image Before Correction](../master/Images/Image_Before_correction.PNG)
-
-### After Correction
-![Image After Correction ](../master/Images/Image_After_Correction.png)
 
 
 ### Softwares and Libraries used 
